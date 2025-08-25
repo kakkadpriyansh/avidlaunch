@@ -5,7 +5,7 @@ import type React from "react"
 import { motion } from "framer-motion"
 import Countdown from "@/components/Countdown"
 import SocialLinks from "@/components/SocialLinks"
-import { Plane } from "lucide-react"
+import Image from "next/image"
 
 export default function ComingSoonPage() {
 
@@ -66,14 +66,22 @@ export default function ComingSoonPage() {
       <footer className="relative z-10 px-4 py-8 border-t border-white/10">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <Plane size={20} className="text-cyan-400" />
-              <span className="text-white font-semibold">Avid Explorers</span>
+            <div className="flex items-center space-x-3 mb-4 md:mb-0">
+              <Image 
+                src="/Avid Red Black.png" 
+                alt="Avid Explorers Logo" 
+                width={32} 
+                height={32} 
+                className="object-contain" 
+              />
+              <span className="text-white font-semibold text-lg">Avid Explorers</span>
             </div>
-            <SocialLinks />
+            <div className="flex justify-center items-center gap-6 mx-auto md:mx-0">
+              <SocialLinks />
+            </div>
             <p className="text-white/60 text-sm">
-              © 2025 Avid Explorers. Adventure awaits.
-            </p>
+                © 2025 Avid Explorers Pvt. Ltd.
+              </p>
           </div>
         </div>
       </footer>
