@@ -67,11 +67,11 @@ export default function ComingSoonPage() {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Plane size={20} className="text-cyan-400" />
-              <span className="text-white font-semibold">AvidExplores</span>
+              <span className="text-white font-semibold">Avid Explorers</span>
             </div>
             <SocialLinks />
             <p className="text-white/60 text-sm">
-              © 2025 AvidExplores. Adventure awaits.
+              © 2025 Avid Explorers. Adventure awaits.
             </p>
           </div>
         </div>

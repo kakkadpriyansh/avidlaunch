@@ -18,8 +18,8 @@ const sourceSans = Source_Sans_3({
 })
 
 export const metadata: Metadata = {
-  title: "AvidExplores – Launching Soon",
-  description: "Adventure begins with AvidExplores. We're launching on the 22nd of next month. Stay tuned!",
+  title: "Avid Explorers – Launching Soon",
+    description: "Adventure begins with Avid Explorers. We're launching on the 22nd of next month. Stay tuned!",
 }
 
 export default function RootLayout({
