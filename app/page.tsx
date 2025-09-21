@@ -39,7 +39,7 @@ export default function ComingSoonPage() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-white/80 max-w-3xl mx-auto leading-relaxed">
-              We're launching on <span className="text-cyan-400 font-semibold">22nd of next month</span>
+              We're launching on <span className="text-cyan-400 font-semibold">28th September</span>
               <br />
               The ultimate platform for extraordinary travel experiences
             </p>
